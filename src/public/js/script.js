@@ -57,7 +57,7 @@ const products = [
         price: 40000,
         image: "https://telegra.ph/file/4c96073370c1f31e015c1.jpg",
         description: "blablabla",
-        author: "Allilaid",
+        author: "Liiixd_",
         features: [
             "Kelebihan banyak: v"
         ],
