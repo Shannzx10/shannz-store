@@ -75,7 +75,7 @@ const products = [
             {
                logo: fb,
                description: fbD,
-               link: 'https://link-wa'
+               link: 'https://www.facebook.com'
             },
         ]
     },
