@@ -2,11 +2,13 @@ const tele = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJI
 const ig = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAQ_VKDDttgLkmFEJvYkOV4RL3mcEjtXW-A_pJDS1GHeoMQuJh&s'
 const fb = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3qskp70YrxHrZfWJ58W1XhM1xaoO7A1tI9Eio34n1ZqS5es&s'
 const wa = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png'
+const email = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuPTMkZOlVCzWEJL4-PHTEahJq3szxYIycZ6Kg6LjxG04Goqn8&s'
 
 const teleD = 'Chat Via Telegram'
 const igD = 'Chat Via Instagram'
 const fbD = 'Chat Via Facebook'
 const waD = 'Chat Via WhatsApp'
+const emailD = 'Chat Via Email'
 
 const products = [
     {
@@ -102,6 +104,39 @@ const products = [
                 logo: tele,
                 description: teleD,
                 link: 'https://t.me/Ditzstore236'
+            },
+        ]
+    },
+    {
+        id: 5,
+        name: "Nokos Virtual All Country",
+        price: 7000,
+        image: "https://telegra.ph/file/1aa5f3490241098746a03.jpg",
+        description: "Sell Nomor kosong virtual OTP All country Murah Harga 7k-15k Testi Contact me aja dan bisa request negara",
+        author: "ErerexID Chx",
+        features: [
+            "Bisa Di Pakai"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/62895342022385'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/ErerexIDOfc'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/ramzy_chx'
+            },
+            {
+                logo: email,
+                description: emailD,
+                link: 'mailto:ererexidnewbie21@yahoo.com'
             },
         ]
     },
