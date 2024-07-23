@@ -269,9 +269,9 @@ function animateCount(elementId, target, duration) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    animateCount('seller-count', 2, 1000); // Total Penjual
-    animateCount('sales-count', 3, 1000); // Total Terjual
-    animateCount('sell', 5, 1000); 
+    animateCount('seller-count', 4, 1000); // Total Penjual
+    animateCount('sales-count', 6, 1000); // Total Terjual
+    animateCount('sell', 13, 1000); 
 });
 
 document.querySelectorAll('.product-item').forEach((item, index) => {
