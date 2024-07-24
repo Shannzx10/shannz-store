@@ -85,7 +85,7 @@ const products = [
         id: 13,
         name: "Vps Kyouka Digital",
         price: 15000,
-        image: "https://telegra.ph/file/4c96073370c1f31e015c1.jpg",
+        image: "https://telegra.ph/file/68dd346dbe531bb79884c.jpg",
         description: "15k-70k VpsCore adalah solusi VPS premium yang dirancang untuk memenuhi kebutuhan komputasi dan hosting Anda. Dengan performa tinggi dan keandalan yang terjamin, VpsCore memastikan bisnis dan aplikasi Anda berjalan tanpa hambatan. Dapatkan kebebasan penuh dalam mengelola server Anda dengan keamanan tingkat tinggi.",
         author: "Kyouka Digital",
         features: [
@@ -108,11 +108,6 @@ const products = [
                logo: ig,
                description: igD,
                link: 'https://www.instagram.com/arastoree_'
-            },
-            {
-               logo: fb,
-               description: fbD,
-               link: 'https://www.facebook.com'
             },
         ]
     },
