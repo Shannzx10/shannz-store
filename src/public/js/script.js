@@ -223,18 +223,7 @@ const products = [
         name: "Sc Bot Wa Fiisya MD",
         price: 35000,
         image: "https://telegra.ph/file/b15eabc4184aa41e90a2d.jpg",
-        description: `➠ SCRIPT TYPE CASE
-➠ STORE MENU
-➠ CPANEL BUTTON
-➠ PUSHKONTAK
-➠ GAME MENU
-➠ DDOS MENU
-➠ BUG MENU
-➠ AI/AIIMAGE MENU
-➠ DOWNLOADER MENU
-➠ DLL
-
-TOTAL FEATURE 600+`,
+        description: 'SCRIPT TYPE CASE, STORE MENU, PANEL BUTTON, PUSHKONTAK, GAME MENU, DDOS MENU, BUG MENU, AI/AIIMAGE MENU, DOWNLOADER MENU, DLL, TOTAL FEATURE 600+',
         author: "ALFIXD",
         features: [
             "Free Update",
