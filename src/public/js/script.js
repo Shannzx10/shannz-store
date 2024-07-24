@@ -82,32 +82,6 @@ const products = [
         ]
     },
     {
-        id: 4,
-        name: "SC KOMARI_BOTZ",
-        price: 65000,
-        image: "https://telegra.ph/file/925f1006a95e568bb6b1b.jpg",
-        description: "Harga Bisa Nego",
-        author: "Ditz Offc",
-        features: [
-            "Function SendButton",
-            "Hd Video",
-            "Fast Respon",
-            "Free Update"
-        ],
-        paymentMethods: [
-             {
-               logo: wa,
-               description: waD,
-               link: 'https://wa.me/6285717062467'
-            },
-            {
-                logo: tele,
-                description: teleD,
-                link: 'https://t.me/Ditzstore236'
-            },
-        ]
-    },
-    {
         id: 5,
         name: "Nokos Virtual All Country",
         price: 7000,
@@ -137,6 +111,32 @@ const products = [
                 logo: email,
                 description: emailD,
                 link: 'mailto:ererexidnewbie21@yahoo.com'
+            },
+        ]
+    },
+    {
+        id: 4,
+        name: "SC KOMARI_BOTZ",
+        price: 65000,
+        image: "https://telegra.ph/file/925f1006a95e568bb6b1b.jpg",
+        description: "Harga Bisa Nego",
+        author: "Ditz Offc",
+        features: [
+            "Function SendButton",
+            "Hd Video",
+            "Fast Respon",
+            "Free Update"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6285717062467'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/Ditzstore236'
             },
         ]
     },
@@ -219,6 +219,7 @@ function openProductDetail(product) {
 
     // Reset payment menu state
     document.getElementById('payment-menu').classList.remove('active');
+    document.getElementById('close-detail').style.display = 'flex';
 }
 
 function openPaymentMenu(productId) {
@@ -269,9 +270,12 @@ function animateCount(elementId, target, duration) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    animateCount('seller-count', 4, 1000); // Total Penjual
-    animateCount('sales-count', 6, 1000); // Total Terjual
-    animateCount('sell', 13, 1000); 
+    animateCount('seller-count', 4, 4000); // Total Penjual
+    animateCount('sales-count', 6, 4000); // Total Terjual
+    animateCount('sell', 13, 4000);
+    
+    const closeButton = document.getElementById('close-detail');
+    closeButton.addEventListener('click', closeProductDetail);
 });
 
 document.querySelectorAll('.product-item').forEach((item, index) => {
@@ -291,6 +295,7 @@ let lastScrollPosition = 0;
 function closeProductDetail() {
     const overlay = document.getElementById("product-detail-overlay");
     const overlayContent = document.getElementById("product-detail-content");
+    const closeButton = document.getElementById('close-detail');
     
     // Save the last scroll position
     lastScrollPosition = overlayContent.scrollTop;
@@ -298,6 +303,7 @@ function closeProductDetail() {
     overlay.classList.remove('active');
     setTimeout(() => {
         overlay.style.display = "none";
+        closeButton.style.display = 'none'; // Hide the close button
     }, 300); // Wait for the animation to complete
 }
 
