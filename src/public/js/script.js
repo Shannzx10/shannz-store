@@ -82,7 +82,7 @@ const products = [
         ]
     },
     {
-        id: 13,
+        id: 3,
         name: "Vps Kyouka Digital",
         price: 15000,
         image: "https://telegra.ph/file/68dd346dbe531bb79884c.jpg",
@@ -112,7 +112,7 @@ const products = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         name: "Sc GisellBot",
         price: 40000,
         image: "https://telegra.ph/file/4c96073370c1f31e015c1.jpg",
@@ -173,7 +173,7 @@ const products = [
         ]
     },
     {
-        id: 4,
+        id: 6,
         name: "SC KOMARI_BOTZ",
         price: 65000,
         image: "https://telegra.ph/file/925f1006a95e568bb6b1b.jpg",
@@ -199,7 +199,7 @@ const products = [
         ]
     },
     {
-        id: 6,
+        id: 7,
         name: "Sc Bot Md Getaway Qris",
         price: 40000,
         image: "https://telegra.ph/file/519c96a636118ee9ba1bf.jpg",
@@ -232,14 +232,12 @@ const products = [
         ]
     },
     {
-        id: 9,
+        id: 8,
         name: "Sc Bot Wa Fiisya MD",
         price: 35000,
         image: "https://telegra.ph/file/b15eabc4184aa41e90a2d.jpg",
         description: `➠ SCRIPT TYPE CASE\n➠ STORE MENU\n➠ CPANEL BUTTON\n➠ PUSHKONTAK\n➠ GAME MENU\n➠ DDOS MENU\n➠ BUG MENU\n➠ AI/AIIMAGE MENU\n➠ DOWNLOADER MENU
-➠ DLL
-
-TOTAL FEATURE 600+`,
+➠ DLL, TOTAL FEATURE 600+`,
         author: "ALFIXD",
         features: [
             "Free Update",
