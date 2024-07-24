@@ -28,7 +28,7 @@ const products = [
              {
                logo: wa,
                description: waD,
-               link: 'https://link-wa'
+               link: 'https://wa.me/6282142770930'
             },
         ]
     },
@@ -49,7 +49,7 @@ const products = [
             {
                logo: wa,
                description: waD,
-               link: 'https://link-wa'
+               link: 'https://wa.me/6282142770930'
             },
         ]
     },
@@ -251,6 +251,26 @@ const products = [
             }
         ]
     },
+    {
+        id: 10,
+        name: "Panel Unli",
+        price: 5000,
+        image: "https://telegra.ph/file/98440293dc78545c32122.jpg",
+        description: "Open Panel Privat Harga Murah",
+        author: "Panel",
+        features: [
+            "Bisa Run Bot Wa",
+            "Hemat Kuota",
+            "Hemat Penyimpanan Internal"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6283870408904'
+            },
+        ]
+    },
 ];
 
 
@@ -354,8 +374,8 @@ function animateCount(elementId, target, duration) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    animateCount('seller-count', 7, 4000); // Total Penjual
-    animateCount('sales-count', 9, 4000); // Total Terjual
+    animateCount('seller-count', 8, 4000); // Total Penjual
+    animateCount('sales-count', 10, 4000); // Total Terjual
     animateCount('sell', 15, 4000);
     
     const closeButton = document.getElementById('close-detail');
