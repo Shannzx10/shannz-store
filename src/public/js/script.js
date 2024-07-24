@@ -198,7 +198,7 @@ const products = [
         name: "SC SHIKIMORI MD-V2",
         price: 50000,
         image: "https://telegra.ph/file/7b6141920d4783191906c.jpg",
-        description: "Sc MD Deposit Buy Panel No Enc Otomatis",
+        description: "SC MD DEPOSIT BUY PANEL OTOMATIS NO ENC",
         author: "RUZTANXD",
         features: [
             "Free Panel Privat Unli",
