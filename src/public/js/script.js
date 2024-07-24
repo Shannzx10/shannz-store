@@ -299,6 +299,46 @@ const products = [
             },
         ]
     },
+    {
+        id: 10,
+        name: "Panel Pterodactyl",
+        price: 5000,
+        image: "https://telegra.ph/file/c8ae5d61e524d18f6abe2.jpg",
+        description: "Panel Bot Whatsapp",
+        author: "Ptero Shop",
+        features: [
+            "Panel On 24 Jam",
+            "Anti Delay",
+            "Anti Culik Sc/Intip Server",
+            "Garansi 1bln Full"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6283146429327'
+            },
+        ]
+    },
+    {
+        id: 10,
+        name: "Panel",
+        price: 5000,
+        image: "https://telegra.ph/file/98440293dc78545c32122.jpg",
+        description: "Panel Unli 5k",
+        author: "-",
+        features: [
+            "Fresh Baru Install",
+            "Dijamin Aman"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6285788725844'
+            },
+        ]
+    },
 ];
 
 
@@ -402,9 +442,9 @@ function animateCount(elementId, target, duration) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    animateCount('seller-count', 10, 4000); // Total Penjual
-    animateCount('sales-count', 12, 4000); // Total Terjual
-    animateCount('sell', 18, 4000);
+    animateCount('seller-count', 12, 4000); // Total Penjual
+    animateCount('sales-count', 14, 4000); // Total Terjual
+    animateCount('sell', 26, 4000);
     
     const closeButton = document.getElementById('close-detail');
     closeButton.addEventListener('click', closeProductDetail);
