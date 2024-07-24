@@ -300,7 +300,7 @@ const products = [
         ]
     },
     {
-        id: 10,
+        id: 11,
         name: "Panel Pterodactyl",
         price: 5000,
         image: "https://telegra.ph/file/c8ae5d61e524d18f6abe2.jpg",
@@ -321,7 +321,7 @@ const products = [
         ]
     },
     {
-        id: 10,
+        id: 12,
         name: "Panel",
         price: 5000,
         image: "https://telegra.ph/file/75621d62090de950b0588.jpg",
