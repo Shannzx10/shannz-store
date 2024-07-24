@@ -234,7 +234,7 @@ const products = [
 ➠ DOWNLOADER MENU
 ➠ DLL
 
-TOTAL FEATURE 600+``,
+TOTAL FEATURE 600+`,
         author: ALFIXD",
         features: [
             "Free Update",
@@ -259,7 +259,7 @@ TOTAL FEATURE 600+``,
                 logo: fb,
                 description: fbD,
                 link: 'https://www.facebook.com/alfi.syahriall.3?mibextid=ZbWKwL'
-            },
+            }
         ]
     },
 ];
