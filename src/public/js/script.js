@@ -173,6 +173,51 @@ const products = [
             },
         ]
     },
+    {
+        id: 7,
+        name: "Admin Panel",
+        price: 5000,
+        image: "https://telegra.ph/file/93ee6277ecc912ebeae22.jpg",
+        description: "-",
+        author: "zen",
+        features: [
+            "Server Aman No Delay",
+            "Server Dikit",
+            "Bisa Dijual Lagi"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6288226340200'
+            }
+        ]
+    },
+    {
+        id: 8,
+        name: "SC SHIKIMORI MD-V2",
+        price: 50000,
+        image: "https://telegra.ph/file/7b6141920d4783191906c.jpg",
+        description: "Sc MD Deposit Buy Panel No Enc Otomatis",
+        author: "RUZTANXD",
+        features: [
+            "Free Panel Privat Unli",
+            "Free Fix",
+            "No Free Update"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6285824689238'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/ruztanxd'
+            },
+        ]
+    },
 ];
 
 
