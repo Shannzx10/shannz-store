@@ -80,7 +80,7 @@ const products = [
                link: 'https://wa.me/6282142770930'
             },
         ]
-    }
+    },
     {
         id: 13,
         name: "Vps Kyouka Digital",
