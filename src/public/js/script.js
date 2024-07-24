@@ -218,6 +218,50 @@ const products = [
             },
         ]
     },
+    {
+        id: 9,
+        name: "Sc Bot Wa Fiisya MD",
+        price: 35000,
+        image: "https://telegra.ph/file/b15eabc4184aa41e90a2d.jpg",
+        description: `➠ SCRIPT TYPE CASE
+➠ STORE MENU
+➠ CPANEL BUTTON
+➠ PUSHKONTAK
+➠ GAME MENU
+➠ DDOS MENU
+➠ BUG MENU
+➠ AI/AIIMAGE MENU
+➠ DOWNLOADER MENU
+➠ DLL
+
+TOTAL FEATURE 600+``,
+        author: ALFIXD",
+        features: [
+            "Free Update",
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/62895615063060'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/alfisyahrial'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/alfisyahriaal'
+            },
+            {
+                logo: fb,
+                description: fbD,
+                link: 'https://www.facebook.com/alfi.syahriall.3?mibextid=ZbWKwL'
+            },
+        ]
+    },
 ];
 
 
