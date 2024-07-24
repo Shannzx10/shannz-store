@@ -235,7 +235,7 @@ const products = [
 ➠ DLL
 
 TOTAL FEATURE 600+`,
-        author: ALFIXD",
+        author: "ALFIXD",
         features: [
             "Free Update",
         ],
