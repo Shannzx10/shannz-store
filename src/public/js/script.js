@@ -324,7 +324,7 @@ const products = [
         id: 10,
         name: "Panel",
         price: 5000,
-        image: "https://telegra.ph/file/98440293dc78545c32122.jpg",
+        image: "https://telegra.ph/file/75621d62090de950b0588.jpg",
         description: "Panel Unli 5k",
         author: "-",
         features: [
