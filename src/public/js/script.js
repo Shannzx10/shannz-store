@@ -12,34 +12,6 @@ const emailD = 'Chat Via Email'
 
 const products = [
     {
-        id: 0,
-        name: "SC BOT LENWY",
-        price: 25000,
-        image: "https://telegra.ph/file/1ead3667cb4900155b0c9.jpg",
-        description: "Script Bot WhatsApp Dengan Tipe Case, Menggunakan Whiskeys Baileys",
-        author: "Lenwy",
-        features: [
-            "Pairing Code",
-            "Free Apikey",
-            "Setmenu",
-            "Button Menu",
-            "Rpg Dengan Story (perkembangan)",
-            "Selengkapnya Tanyakan Saja"
-        ],
-        paymentMethods: [
-             {
-               logo: wa,
-               description: waD,
-               link: 'https://wa.me/6283829814737'
-            },
-            {
-                logo: tele,
-                description: teleD,
-                link: 'https://t.me/ilenwy'
-            },
-        ]
-    },
-    {
         id: 1,
         name: "Panel Pterodactyl",
         price: 7000,
@@ -56,7 +28,7 @@ const products = [
              {
                logo: wa,
                description: waD,
-               link: 'https://wa.me/6282142770930'
+               link: 'https://link-wa'
             },
         ]
     },
@@ -77,42 +49,12 @@ const products = [
             {
                logo: wa,
                description: waD,
-               link: 'https://wa.me/6282142770930'
+               link: 'https://link-wa'
             },
         ]
     },
     {
         id: 3,
-        name: "Vps Kyouka Digital",
-        price: 15000,
-        image: "https://telegra.ph/file/68dd346dbe531bb79884c.jpg",
-        description: "15k-70k VpsCore adalah solusi VPS premium yang dirancang untuk memenuhi kebutuhan komputasi dan hosting Anda. Dengan performa tinggi dan keandalan yang terjamin, VpsCore memastikan bisnis dan aplikasi Anda berjalan tanpa hambatan. Dapatkan kebebasan penuh dalam mengelola server Anda dengan keamanan tingkat tinggi.",
-        author: "Kyouka Digital",
-        features: [
-            "Performa Tinggi: Didukung oleh hardware terbaru untuk memastikan kecepatan dan responsivitas optimal. Sesuai dengan Ram Vps yang kamu inginkan.",
-            "Keandalan: Uptime 99,99% yang memastikan situs atau aplikasi Anda selalu online. Garansi 20 Hari",
-            "Fleksibilitas: Pilihan konfigurasi yang dapat disesuaikan sesuai kebutuhan Anda."
-        ],
-        paymentMethods: [
-             {
-               logo: wa,
-               description: waD,
-               link: 'https://wa.me/6288293622523'
-            },
-            {
-              logo: tele,
-              description: teleD,
-              link: 'https://t.me/StoreyusID
-            },
-            {
-               logo: ig,
-               description: igD,
-               link: 'https://www.instagram.com/arastoree_'
-            },
-        ]
-    },
-    {
-        id: 4,
         name: "Sc GisellBot",
         price: 40000,
         image: "https://telegra.ph/file/4c96073370c1f31e015c1.jpg",
@@ -173,7 +115,7 @@ const products = [
         ]
     },
     {
-        id: 6,
+        id: 4,
         name: "SC KOMARI_BOTZ",
         price: 65000,
         image: "https://telegra.ph/file/925f1006a95e568bb6b1b.jpg",
@@ -181,7 +123,7 @@ const products = [
         author: "Ditz Offc",
         features: [
             "Function SendButton",
-            "Hd Video0
+            "Hd Video",
             "Fast Respon",
             "Free Update"
         ],
@@ -199,7 +141,7 @@ const products = [
         ]
     },
     {
-        id: 7,
+        id: 6,
         name: "Sc Bot Md Getaway Qris",
         price: 40000,
         image: "https://telegra.ph/file/519c96a636118ee9ba1bf.jpg",
@@ -232,12 +174,14 @@ const products = [
         ]
     },
     {
-        id: 8,
+        id: 9,
         name: "Sc Bot Wa Fiisya MD",
         price: 35000,
         image: "https://telegra.ph/file/b15eabc4184aa41e90a2d.jpg",
         description: `➠ SCRIPT TYPE CASE\n➠ STORE MENU\n➠ CPANEL BUTTON\n➠ PUSHKONTAK\n➠ GAME MENU\n➠ DDOS MENU\n➠ BUG MENU\n➠ AI/AIIMAGE MENU\n➠ DOWNLOADER MENU
-➠ DLL, TOTAL FEATURE 600+`,
+➠ DLL
+
+TOTAL FEATURE 600+`,
         author: "ALFIXD",
         features: [
             "Free Update",
