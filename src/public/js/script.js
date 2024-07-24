@@ -82,6 +82,41 @@ const products = [
         ]
     },
     {
+        id: 13,
+        name: "Vps Kyouka Digital",
+        price: 15000,
+        image: "https://telegra.ph/file/4c96073370c1f31e015c1.jpg",
+        description: "15k-70k VpsCore adalah solusi VPS premium yang dirancang untuk memenuhi kebutuhan komputasi dan hosting Anda. Dengan performa tinggi dan keandalan yang terjamin, VpsCore memastikan bisnis dan aplikasi Anda berjalan tanpa hambatan. Dapatkan kebebasan penuh dalam mengelola server Anda dengan keamanan tingkat tinggi.",
+        author: "Kyouka Digital",
+        features: [
+            "Performa Tinggi: Didukung oleh hardware terbaru untuk memastikan kecepatan dan responsivitas optimal. Sesuai dengan Ram Vps yang kamu inginkan.",
+            "Keandalan: Uptime 99,99% yang memastikan situs atau aplikasi Anda selalu online. Garansi 20 Hari",
+            "Fleksibilitas: Pilihan konfigurasi yang dapat disesuaikan sesuai kebutuhan Anda."
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6288293622523'
+            },
+            {
+              logo: tele,
+              description: teleD,
+              link: 'https://t.me/StoreyusID
+            },
+            {
+               logo: ig,
+               description: igD,
+               link: 'https://www.instagram.com/arastoree_'
+            },
+            {
+               logo: fb,
+               description: fbD,
+               link: 'https://www.facebook.com'
+            },
+        ]
+    },
+    {
         id: 3,
         name: "Sc GisellBot",
         price: 40000,
