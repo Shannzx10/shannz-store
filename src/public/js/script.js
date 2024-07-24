@@ -111,6 +111,162 @@ const products = [
             },
         ]
     },
+    {
+        id: 3,
+        name: "Sc GisellBot",
+        price: 40000,
+        image: "https://telegra.ph/file/4c96073370c1f31e015c1.jpg",
+        description: "blablabla",
+        author: "Liiixd_",
+        features: [
+            "Kelebihan banyak: v"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6283134213550'
+            },
+            {
+               logo: ig,
+               description: igD,
+               link: 'https://www.instagram.com/aliilaid_/?utm_source=other&utm_medium=copy_link&utm_content=sc+gisellbot?'
+            },
+            {
+               logo: fb,
+               description: fbD,
+               link: 'https://www.facebook.com'
+            },
+        ]
+    },
+    {
+        id: 5,
+        name: "Nokos Virtual All Country",
+        price: 7000,
+        image: "https://telegra.ph/file/1aa5f3490241098746a03.jpg",
+        description: "Sell Nomor kosong virtual OTP All country Murah Harga 7k-15k Testi Contact me aja dan bisa request negara",
+        author: "ErerexID Chx",
+        features: [
+            "Bisa Di Pakai"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/62895342022385'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/ErerexIDOfc'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/ramzy_chx'
+            },
+            {
+                logo: email,
+                description: emailD,
+                link: 'mailto:ererexidnewbie21@yahoo.com'
+            },
+        ]
+    },
+    {
+        id: 4,
+        name: "SC KOMARI_BOTZ",
+        price: 65000,
+        image: "https://telegra.ph/file/925f1006a95e568bb6b1b.jpg",
+        description: "Harga Bisa Nego",
+        author: "Ditz Offc",
+        features: [
+            "Function SendButton",
+            "Hd Video0
+            "Fast Respon",
+            "Free Update"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6285717062467'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/Ditzstore236'
+            },
+        ]
+    },
+    {
+        id: 6,
+        name: "Sc Bot Md Getaway Qris",
+        price: 40000,
+        image: "https://telegra.ph/file/519c96a636118ee9ba1bf.jpg",
+        description: "Script bot no ENC Full 100% fitur 80% work masih dalam tanganan jika ada yang error",
+        author: "ErerexID Chx",
+        features: [
+            "Qris Tanpa Ktp"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/62895342022385'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/ErerexIDOfc'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/ramzy_chx'
+            },
+            {
+                logo: email,
+                description: emailD,
+                link: 'mailto:ererexidnewbie21@yahoo.com'
+            },
+        ]
+    },
+    {
+        id: 9,
+        name: "Sc Bot Wa Fiisya MD",
+        price: 35000,
+        image: "https://telegra.ph/file/b15eabc4184aa41e90a2d.jpg",
+        description: `➠ SCRIPT TYPE CASE\n➠ STORE MENU\n➠ CPANEL BUTTON\n➠ PUSHKONTAK\n➠ GAME MENU\n➠ DDOS MENU\n➠ BUG MENU\n➠ AI/AIIMAGE MENU\n➠ DOWNLOADER MENU
+➠ DLL
+
+TOTAL FEATURE 600+`,
+        author: "ALFIXD",
+        features: [
+            "Free Update",
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/62895615063060'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/alfisyahrial'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/alfisyahriaal'
+            },
+            {
+                logo: fb,
+                description: fbD,
+                link: 'https://www.facebook.com/alfi.syahriall.3?mibextid=ZbWKwL'
+            }
+        ]
+    },
 ];
 
 
