@@ -12,6 +12,34 @@ const emailD = 'Chat Via Email'
 
 const products = [
     {
+        id: 0,
+        name: "SC BOT LENWY",
+        price: 25000,
+        image: "https://telegra.ph/file/1ead3667cb4900155b0c9.jpg",
+        description: "Script Bot WhatsApp Dengan Tipe Case, Menggunakan Whiskeys Baileys",
+        author: "Lenwy",
+        features: [
+            "Pairing Code",
+            "Free Apikey",
+            "Setmenu",
+            "Button Menu",
+            "Rpg Dengan Story (perkembangan)",
+            "Selengkapnya Tanyakan Saja"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6283829814737'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/ilenwy'
+            },
+        ]
+    },
+    {
         id: 1,
         name: "Panel Pterodactyl",
         price: 7000,
@@ -175,7 +203,7 @@ const products = [
     },
     {
         id: 7,
-        name: "Admin Panel",
+        name: "Panel Unlimited",
         price: 5000,
         image: "https://telegra.ph/file/93ee6277ecc912ebeae22.jpg",
         description: "-",
@@ -374,9 +402,9 @@ function animateCount(elementId, target, duration) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    animateCount('seller-count', 8, 4000); // Total Penjual
-    animateCount('sales-count', 10, 4000); // Total Terjual
-    animateCount('sell', 15, 4000);
+    animateCount('seller-count', 10, 4000); // Total Penjual
+    animateCount('sales-count', 12, 4000); // Total Terjual
+    animateCount('sell', 18, 4000);
     
     const closeButton = document.getElementById('close-detail');
     closeButton.addEventListener('click', closeProductDetail);
