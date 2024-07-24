@@ -321,8 +321,8 @@ function animateCount(elementId, target, duration) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    animateCount('seller-count', 4, 4000); // Total Penjual
-    animateCount('sales-count', 6, 4000); // Total Terjual
+    animateCount('seller-count', 6, 4000); // Total Penjual
+    animateCount('sales-count', 8, 4000); // Total Terjual
     animateCount('sell', 13, 4000);
     
     const closeButton = document.getElementById('close-detail');
