@@ -175,6 +175,12 @@ const products = [
     },
 ];
 
+
+
+
+
+
+
 // Generate product list
 const productsSection = document.querySelector(".products");
 products.forEach((product) => {
@@ -306,6 +312,70 @@ function closeProductDetail() {
         closeButton.style.display = 'none'; // Hide the close button
     }, 300); // Wait for the animation to complete
 }
+
+const searchOverlay = document.getElementById('search-overlay');
+const searchInput = document.getElementById('search-input');
+const searchButton = document.getElementById('search-button');
+const searchResults = document.getElementById('search-results');
+const searchTrigger = document.querySelector('.search-container .search-bar input');
+const searchTriggerBtn = document.querySelector('.search-container .search-bar button');
+const backButton = document.getElementById('back-button');
+
+function openSearchOverlay() {
+    searchOverlay.classList.add('active');
+    searchInput.focus();
+    searchInput.placeholder = searchTrigger.placeholder;
+}
+
+function closeSearchOverlay() {
+    searchOverlay.classList.remove('active');
+}
+
+function performSearch() {
+    const query = searchInput.value.toLowerCase();
+    const filteredProducts = products.filter(product => 
+        product.name.toLowerCase().includes(query) ||
+        product.description.toLowerCase().includes(query)
+    );
+
+    displaySearchResults(filteredProducts);
+}
+
+function displaySearchResults(results) {
+    searchResults.innerHTML = '';
+    if (results.length === 0) {
+        searchResults.innerHTML = '<p>No products found.</p>';
+        return;
+    }
+
+    results.forEach(product => {
+        const resultItem = document.createElement('div');
+        resultItem.classList.add('search-result-item');
+        resultItem.innerHTML = `
+            <img src="${product.image}" alt="${product.name}">
+            <div class="product-info">
+                <h3>${product.name}</h3>
+                <p>Rp ${product.price.toLocaleString('id-ID')}</p>
+            </div>
+        `;
+        resultItem.addEventListener('click', () => {
+            openProductDetail(product);
+            closeSearchOverlay();
+        });
+        searchResults.appendChild(resultItem);
+    });
+}
+
+searchTrigger.addEventListener('click', openSearchOverlay);
+searchTriggerBtn.addEventListener('click', openSearchOverlay);
+searchButton.addEventListener('click', performSearch);
+searchInput.addEventListener('keyup', (e) => {
+    if (e.key === 'Enter') {
+        performSearch();
+    }
+});
+
+backButton.addEventListener('click', closeSearchOverlay);
 
 document.getElementById("product-detail-overlay").addEventListener('transitionend', (event) => {
     if (event.propertyName === 'transform' && event.target.classList.contains('active')) {
