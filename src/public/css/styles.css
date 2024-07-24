@@ -273,7 +273,7 @@ body {
   border-top-right-radius: 20px;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
   transition: bottom 0.3s ease-in-out;
-  z-index: 1000;
+  z-index: 1004;
 }
 
 .payment-menu.active {
