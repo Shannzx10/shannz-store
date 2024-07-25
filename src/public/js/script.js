@@ -258,6 +258,30 @@ const products = [
         ]
     },
     {
+        id: 14,
+        name: "VPS DIGITAL OCEAN",
+        price: 35000,
+        image: "https://telegra.ph/file/35bb4006e051f63fe5c78.jpg",
+        description: "KUALITAS TERBAIK GARANSI 15D FREE INSTALL PTERODACTYL FREE REQ OS, REQ VERSI FREE REQ SUBDOMAIN PTERODACTYL FREE INSTALL THEMA",
+        author: "LEXCZXBAKZ",
+        features: [
+            "Bergaransi 15D",
+            "Digital Ocean Kualitas Terbaik"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6287743212449'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/LeXcZ_Alok'
+            },
+        ]
+    },
+    {
         id: 13,
         name: "PT PANEL",
         price: 15000,
