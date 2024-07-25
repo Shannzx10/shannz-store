@@ -507,6 +507,62 @@ TOTAL FEATURE 600+`,
             }
         ]
     },
+    {
+        id: 19,
+        name: "SC SinBotz",
+        price: 40000,
+        image: "https://telegra.ph/file/562b0c675c2356b37c6a9.png",
+        description: "SCRIPT BOT WHATSAPP YANG DILENGKAPI BERBAGAI AI, MULAI DARI GPT 4 TURBO,   GEMINI DAN AI GENERATE IMAGE, DAN FITUR UNGGULAN LAINNYA DENGAN VERSI BUTTON, DAN BISA DI SETMENU (1-7), Rp40.000 GAK DAPAT UPDATE, Rp75.000 UPDATE TIAP BULAN",
+        author: "AFSIN STORE",
+        features: [
+            "Free Panel Unlimited"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6283873123398?text=BANG+MAU+BUY'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/afsin_store'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/afsin_store'
+            },
+        ]
+    },
+    {
+        id: 20,
+        name: "PANEL PTERODACTYL",
+        price: 15000,
+        image: "https://telegra.ph/file/35c3f0416df1c2f55325b.jpg",
+        description: "SEBUAH PRODUK DIGITAL UNTUK RUNNING BOT WHATSAPP, TELE MAUPUN DISCORD",
+        author: "AFSIN STORE",
+        features: [
+            "PANEL PRIVAT"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6283873123398?text=BANG+MAU+BUY'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/afsin_store'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/afsin_store'
+            },
+        ]
+    },
 ];
 
 
