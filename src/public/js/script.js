@@ -66,7 +66,7 @@ const products = [
             "Setmenu",
             "Button Menu",
             "RPG Dengan Story (perkembangan)",
-            "Selengkapnya Tanyakan Daja"
+            "Selengkapnya Tanyakan Saja"
         ],
         paymentMethods: [
              {
@@ -79,6 +79,33 @@ const products = [
                 description: teleD,
                 link: 'https://t.me/ilenwy'
             },
+        ]
+    },{
+        id: 12,
+        name: "VPS ISP DIGITAL OCEAN",
+        price: 20000,
+        image: "https://telegra.ph/file/6998249dbf2154f63df33.jpg",
+        description: "20k-75k Bisa untuk buat panel pterodactyl, WHM, Dll",
+        author: "ISNZOFC STORE",
+        features: [
+            "Free Instsll Panel Pterodactyl"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/62895326036822'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/IsnzOfc'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/isna.zip'
+            }
         ]
     },
     {
