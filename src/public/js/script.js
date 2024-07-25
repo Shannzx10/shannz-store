@@ -173,7 +173,7 @@ const products = [
         name: "VPS DO & PANEL PRIVAT",
         price: 2000,
         image: "https://telegra.ph/file/6998249dbf2154f63df33.jpg",
-        description: "Yuki menyesuaikan panel privat dan VPS",
+        description: "Yuki menyediakan panel privat dan VPS",
         author: "Yuki Host",
         features: [
             "Terjamin Kualitas"
