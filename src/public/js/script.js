@@ -445,6 +445,35 @@ TOTAL FEATURE 600+`,
             },
         ]
     },
+    {
+        id: 17,
+        name: "NOKOS",
+        price: 7000,
+        image: "https://telegra.ph/file/6451f43ed8feb866b592e.png",
+        description: "NOKOS ALL CONTRY",
+        author: "Petra Store",
+        features: [
+            "Otp max 3x",
+            "Bisa Request Operator"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6281389190294'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/PetraStore'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/petrastore19'
+            },
+        ]
+    },
 ];
 
 
