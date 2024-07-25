@@ -84,7 +84,7 @@ const products = [
         id: 12,
         name: "VPS ISP DIGITAL OCEAN",
         price: 20000,
-        image: "https://telegra.ph/file/6998249dbf2154f63df33.jpg",
+        image: "https://telegra.ph/file/aa107831e82ec120fb062.png",
         description: "20k-75k Bisa untuk buat panel pterodactyl, WHM, Dll",
         author: "ISNZOFC STORE",
         features: [
