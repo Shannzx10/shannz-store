@@ -80,7 +80,8 @@ const products = [
                 link: 'https://t.me/ilenwy'
             },
         ]
-    },{
+    },
+    {
         id: 12,
         name: "VPS ISP DIGITAL OCEAN",
         price: 20000,
@@ -253,6 +254,29 @@ const products = [
                 logo: email,
                 description: emailD,
                 link: 'mailto:ererexidnewbie21@yahoo.com'
+            },
+        ]
+    },
+    {
+        id: 13,
+        name: "PT PANEL",
+        price: 15000,
+        image: "https://telegra.ph/file/e8193b642f56d654d8625.jpg",
+        description: "Pt panel murah",
+        author: "elaina store",
+        features: [
+            "Bisa Open Admin Panel"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6283144856150'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/elainastore'
             },
         ]
     },
