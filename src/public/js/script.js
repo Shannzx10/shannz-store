@@ -474,6 +474,39 @@ TOTAL FEATURE 600+`,
             },
         ]
     },
+    {
+        id: 18,
+        name: "Admin Panel Perbulan Fresh",
+        price: 20000,
+        image: "https://telegra.ph/file/aa543f8cc8199225780f7.jpg",
+        description: "Panel Khusus Bot Wa, Open murbug juga",
+        author: "Kevin Official",
+        features: [
+            "Create Panel Sepuasnya"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6283898383437'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/KevinOfficial12'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/KevinOfficialReal'
+            },
+            {
+                logo: fb,
+                description: fbD,
+                link: 'https://www.facebook.com/KevinOfficial32'
+            }
+        ]
+    },
 ];
 
 
