@@ -214,7 +214,7 @@ TOTAL FEATURE 600+`,
         name: "Vps Kyouka Digital",
         price: 15000,
         image: "https://telegra.ph/file/68dd346dbe531bb79884c.jpg",
-        description: "VpsCore adalah solusi VPS premium yang dirancang untuk memenuhi kebutuhan komputasi dan hosting Anda. Dengan performa tinggi dan keandalan yang terjamin, VpsCore memastikan bisnis dan aplikasi Anda berjalan tanpa hambatan. Dapatkan kebebasan penuh dalam mengelola server Anda dengan keamanan tingkat tinggi.",
+        description: "15k-70k VpsCore adalah solusi VPS premium yang dirancang untuk memenuhi kebutuhan komputasi dan hosting Anda. Dengan performa tinggi dan keandalan yang terjamin, VpsCore memastikan bisnis dan aplikasi Anda berjalan tanpa hambatan. Dapatkan kebebasan penuh dalam mengelola server Anda dengan keamanan tingkat tinggi.",
         author: "Kyouka Digital",
         features: [
             "Performa Tinggi: Didukung oleh hardware terbaru untuk memastikan kecepatan dan responsivitas optimal. Sesuai dengan Ram Vps yang kamu inginkan.",
@@ -236,6 +236,40 @@ TOTAL FEATURE 600+`,
                 logo: ig,
                 description: igD,
                 link: 'https://instagram.com/arastor'
+            },
+        ]
+    },
+    {
+        id: 8,
+        name: "Pterodactyl (host bot whatsapp)",
+        price: 1000,
+        image: "https://telegra.ph/file/9419de0b2cea6b8beb096.jpg",
+        description: "Menjual Panel Bot WhatsApp Dengan Harga Terjangkau Dan Kualitas Terjamin",
+        author: "NabilGtPs",
+        features: [
+            "Server Terjaga",
+            "Harga Terjangkau",
+            "Kualitas Terjamin",
+            "Hemat Kuota",
+            "Hemat Penyimpanan",
+            "Web close Bot tetap on",
+            "Menggunakan vps 8GB RAM 4VCPU Intel Premium"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6285180768293'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/NaBiLGTPS'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/nabilgtps'
             },
         ]
     },
