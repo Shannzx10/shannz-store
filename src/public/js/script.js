@@ -563,6 +563,27 @@ TOTAL FEATURE 600+`,
             },
         ]
     },
+    {
+        id: 21,
+        name: "Panel Pterodactyl",
+        price: 6000,
+        image: "https://telegra.ph/file/c9f1904ea024bdad17184.jpg",
+        description: "PANEL UNLI MURAH",
+        author: "Zax",
+        features: [
+            "UNLIMITED",
+            "SERVER PRIVAT",
+            "GARANSI 14D",
+            "MAX DURASI 30D"
+        ],
+        paymentMethods: [
+             {
+               logo: tele,
+               description: teleD,
+               link: 'https://t.me/hamz0875'
+            },
+        ]
+    },
 ];
 
 
@@ -666,8 +687,8 @@ function animateCount(elementId, target, duration) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    animateCount('seller-count', 17, 4000); // Total Penjual
-    animateCount('sales-count', 20, 4000); // Total Terjual
+    animateCount('seller-count', 18, 4000); // Total Penjual
+    animateCount('sales-count', 21, 4000); // Total Terjual
     animateCount('sell', 32, 4000);
     
     const closeButton = document.getElementById('close-detail');
