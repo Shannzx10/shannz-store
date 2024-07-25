@@ -169,6 +169,34 @@ const products = [
         ]
     },
     {
+        id: 11,
+        name: "VPS DO & PANEL PRIVAT",
+        price: 2000,
+        image: "https://telegra.ph/file/6998249dbf2154f63df33.jpg",
+        description: "Yuki menyesuaikan panel privat dan VPS",
+        author: "Yuki Host",
+        features: [
+            "Terjamin Kualitas"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6288229683561'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/SariiRooti'
+            },
+            {
+                logo: ig,
+                description: igD,
+                link: 'https://instagram.com/ammarbn27'
+            }
+        ]
+    },
+    {
         id: 6,
         name: "Sc Bot Md Getaway Qris",
         price: 40000,
