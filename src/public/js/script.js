@@ -54,6 +54,34 @@ const products = [
         ]
     },
     {
+        id: 10,
+        name: "SC BOT LENWY",
+        price: 25000,
+        image: "https://telegra.ph/file/8d5874daf03be2a5797ec.jpg",
+        description: "Sc bot whatsapp dengan type case, Menggunakan whiskey baileys",
+        author: "Lenwy",
+        features: [
+            "Pairing Code",
+            "Free Apikey",
+            "Setmenu",
+            "Button Menu",
+            "RPG Dengan Story (perkembangan)",
+            "Selengkapnya Tanyakan Daja"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6283829814737'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/ilenwy'
+            },
+        ]
+    },
+    {
         id: 3,
         name: "Sc GisellBot",
         price: 40000,
