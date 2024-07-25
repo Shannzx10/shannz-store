@@ -599,7 +599,7 @@ function openProductDetail(product) {
             <p>${product.description}</p>
             <h3>Di Publikasi Oleh</h3>
               <h5>✒️ ${product.author}</h5>
-            <h3>Spesifikasi Produk</h3>
+            <h3>Keunggulan Produk</h3>
             <ul>
                 ${product.features.map(feature => `<li>${feature}</li>`).join('')}
             </ul>
@@ -666,9 +666,9 @@ function animateCount(elementId, target, duration) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    animateCount('seller-count', 12, 4000); // Total Penjual
-    animateCount('sales-count', 14, 4000); // Total Terjual
-    animateCount('sell', 26, 4000);
+    animateCount('seller-count', 17, 4000); // Total Penjual
+    animateCount('sales-count', 20, 4000); // Total Terjual
+    animateCount('sell', 32, 4000);
     
     const closeButton = document.getElementById('close-detail');
     closeButton.addEventListener('click', closeProductDetail);
