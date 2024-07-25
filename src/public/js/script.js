@@ -404,6 +404,24 @@ TOTAL FEATURE 600+`,
             },
         ]
     },
+    {
+        id: 15,
+        name: "CPANEL WHM",
+        price: 15000,
+        image: "https://telegra.ph/file/aa543f8cc8199225780f7.jpg",
+        description: "Whm mini 15k, whm medium 20k, whm extra 25k, whm super 30k, Server Lanjayy",
+        author: "King Of Bear",
+        features: [
+            "100% Amanah Dan Sudah Banyak Testimoni"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6288279268363'
+            },
+        ]
+    },
 ];
 
 
