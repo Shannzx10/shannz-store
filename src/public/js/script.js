@@ -422,6 +422,29 @@ TOTAL FEATURE 600+`,
             },
         ]
     },
+    {
+        id: 16,
+        name: "Vps Digital Ocean",
+        price: 20000,
+        image: "https://telegra.ph/file/549a841b6be097d7fbc9f.png",
+        description: "20k-85k Murah bergaransi 15 Hari",
+        author: "FahryCruel",
+        features: [
+            "100% Amanah Dan Sudah Banyak Testimoni"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6281578268507'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/FahryCruell'
+            },
+        ]
+    },
 ];
 
 
