@@ -3,7 +3,7 @@ const ig = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPbEdSyZrjNPq
 const fb = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3qskp70YrxHrZfWJ58W1XhM1xaoO7A1tI9Eio34n1ZqS5es&s'
 const wa = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png'
 const email = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuPTMkZOlVCzWEJL4-PHTEahJq3szxYIycZ6Kg6LjxG04Goqn8&s'
-const web = 'https://www.google.com/search?q=png+icon+toko&sca_esv=8555417468704b0c&hl=id&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjLgLioyMSHAxURRmcHHewRGMEQ_AUIBigB&biw=320&bih=486#'
+const web = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsVcU3XLSEQMZPeJRSDJtxDY8WGkfoRhPKaqMIEsYpmlJSct0&s'
 
 const teleD = 'Chat Via Telegram'
 const igD = 'Chat Via Instagram'
