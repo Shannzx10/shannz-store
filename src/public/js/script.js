@@ -665,6 +665,47 @@ TOTAL FEATURE 600+`,
             },
         ]
     },
+    {
+        id: 25,
+        name: "ADP",
+        price: 5000,
+        image: "https://telegra.ph/file/e166a815f4211d5ce6757.jpg",
+        description: "Admin panel spek gg dengan harga yang murah",
+        author: "zen",
+        features: [
+            "No Lag"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6288226340200'
+            },
+        ]
+    },
+    {
+        id: 26,
+        name: "Netflix Premium",
+        price: 30000,
+        image: "https://telegra.ph/file/d320b84f1154ea08535d4.jpg",
+        description: "Akun netflix premium murah 1bulan",
+        author: "MolarAzka Tore",
+        features: [
+            "Lebih murah dan terjangkau"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6282329141154'
+            },
+            {
+              logo: email,
+              description: emailD,
+              link: 'mailto:bussidazka@gmail.com'
+            }
+        ]
+    },
 ];
 
 
