@@ -594,7 +594,7 @@ TOTAL FEATURE 600+`,
         description: "Untuk Jasa Pembuatan Store Dengan Harga 80.000 Sudah Terima Jadi, Dapat Sub Domain .shop dan mendapatkan gratis whatsapp Api Geteway Trial Dengan Exp 5Days Untuh Preview Website Bisa Cek oredigital.shop",
         author: "Ore Digital",
         features: [
-            "Setting website via cpanel",
+            "Setting website via admin panel",
             "Free sub domain",
             "Proses instalasi 10mnt - 1jam",
             "Website dipastikan aman 100%",
