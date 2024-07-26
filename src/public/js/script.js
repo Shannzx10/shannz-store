@@ -639,7 +639,30 @@ TOTAL FEATURE 600+`,
                description: teleD,
                link: 'https://t.me/prettyluvv.caa_'
             },
-            
+        ]
+    },
+    {
+        id: 24,
+        name: "Panel Privat",
+        price: 6000,
+        image: "https://telegra.ph/file/717ccd1513e792014a9d2.jpg",
+        description: "Panel Unli Murah",
+        author: "Valiant Store",
+        features: [
+            "Server aman + terjaga",
+            "Sc aman"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6282253595771'
+            },
+            {
+               logo: tele,
+               description: teleD,
+               link: 'https://t.me/valiant29'
+            },
         ]
     },
 ];
