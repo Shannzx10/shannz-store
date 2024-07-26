@@ -3,12 +3,14 @@ const ig = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBPbEdSyZrjNPq
 const fb = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3qskp70YrxHrZfWJ58W1XhM1xaoO7A1tI9Eio34n1ZqS5es&s'
 const wa = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/120px-WhatsApp.svg.png'
 const email = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuPTMkZOlVCzWEJL4-PHTEahJq3szxYIycZ6Kg6LjxG04Goqn8&s'
+const web = 'https://www.google.com/search?q=png+icon+toko&sca_esv=8555417468704b0c&hl=id&tbm=isch&source=lnms&sa=X&ved=0ahUKEwjLgLioyMSHAxURRmcHHewRGMEQ_AUIBigB&biw=320&bih=486#'
 
 const teleD = 'Chat Via Telegram'
 const igD = 'Chat Via Instagram'
 const fbD = 'Chat Via Facebook'
 const waD = 'Chat Via WhatsApp'
 const emailD = 'Chat Via Email'
+const webD = 'Order Via Website'
 
 const products = [
     {
@@ -581,6 +583,38 @@ TOTAL FEATURE 600+`,
                logo: tele,
                description: teleD,
                link: 'https://t.me/hamz0875'
+            },
+        ]
+    },
+    {
+        id: 22,
+        name: "Website Builder",
+        price: 80000,
+        image: "https://telegra.ph/file/db067838a27d976ebcd3d.jpg",
+        description: "Untuk Jasa Pembuatan Store Dengan Harga 80.000 Sudah Terima Jadi, Dapat Sub Domain .shop dan mendapatkan gratis whatsapp Api Geteway Trial Dengan Exp 5Days Untuh Preview Website Bisa Cek oredigital.shop",
+        author: "Ore Digital",
+        features: [
+            "Setting website via cpanel",
+            "Free sub domain",
+            "Proses instalasi 10mnt - 1jam",
+            "Website dipastikan aman 100%",
+            "Perpanjangan Web 10k/bln"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6283170801193'
+            },
+            {
+               logo: tele,
+               description: teleD,
+               link: 'https://t.me/@oredigital'
+            },
+            {
+              logo: web,
+              description: webD,
+              link: 'https://oredigital.shop'
             },
         ]
     },
