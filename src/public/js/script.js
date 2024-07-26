@@ -618,6 +618,30 @@ TOTAL FEATURE 600+`,
             },
         ]
     },
+    {
+        id: 23,
+        name: "Panel Murah",
+        price: 5000,
+        image: "https://telegra.ph/file/cd80c20567e83a217c784.jpg",
+        description: "📮 RAM 4GB CPU 100% : 4K, 📮 RAM 5GB CPU 120% : 5K, 📮 RAM 6GB CPU 150% : 6K, 📮 RAM 7GB CPU 180% : 7K, 📮 RAM 8GB CPU 210% : 8K, 📮 UNLI GB CPU UNLI : 10K",
+        author: "© caca shop",
+        features: [
+            "BANYAK"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6285283090385'
+            },
+            {
+               logo: tele,
+               description: teleD,
+               link: 'https://t.me/prettyluvv.caa_'
+            },
+            
+        ]
+    },
 ];
 
 
