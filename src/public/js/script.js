@@ -706,6 +706,26 @@ TOTAL FEATURE 600+`,
             }
         ]
     },
+    {
+        id: 27,
+        name: "SCRIPT NOVA-TECH",
+        price: 40000,
+        image: "https://telegra.ph/file/6be4af7f7dd2a3a7f84a7.jpg",
+        description: "Script bot wa free update dan fix simple fitur",
+        author: "SANZMD",
+        features: [
+            "Free Update",
+            "Free Fix Keamanan Script",
+            "Simple Dan Size Ringan"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6288706430660'
+            },
+        ]
+    },
 ];
 
 
