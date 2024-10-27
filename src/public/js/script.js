@@ -56,6 +56,31 @@ const products = [
         ]
     },
     {
+        id: 28,
+        name: "Jasa Pembuatan Aplikasi",
+        price: 50000,
+        image: "https://endpoint.web.id/server/file/82v41e405aMPd5H.jpg",
+        description: "Jasa membuat aplikasi android, Bisa untuk kebutuhan bisnis, atau lainnya, Kecuali hal yang melanggar aturan dan konsep yang berlebihan",
+        author: "DitzOfc",
+        features: [
+            "Open Source (Setelah jadi, Project yang di kerjakan penjoki akan di kirim ke konsumen)",
+            "Menggunakan Java, Harga Murah Mulai dari 50k",
+            "Pengerjaan cepat maksimal 2 bulan, Tergantung Aplikasi apa yang di request"
+        ],
+        paymentMethods: [
+             {
+               logo: wa,
+               description: waD,
+               link: 'https://wa.me/6285717062467'
+            },
+            {
+                logo: tele,
+                description: teleD,
+                link: 'https://t.me/@Ditzstore236'
+            },
+        ]
+    },
+    {
         id: 10,
         name: "SC BOT LENWY",
         price: 25000,
@@ -79,7 +104,7 @@ const products = [
             {
                 logo: tele,
                 description: teleD,
-                link: 'https://t.me/ilenwy'
+                link: 'https://t.me/@ilenwy'
             },
         ]
     },
