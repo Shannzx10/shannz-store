@@ -37,13 +37,15 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan template ini:
    ```
 4. **Akses website**
 
-   buka browser anda dan akses localhost dengan port 3000 dan lihat hasilnya
+   buka browser anda dan akses localhost dengan port 5000 dan lihat hasilnya
    ```bash
-   http://localhost:3000
+   http://localhost:5000
    ```
 
 ## Terakhir 
 
 Yeay website mu sudah bisa di akses, langkah selanjutnya kamu dapat menjalankan nya di server nginx dan menambahkan domain agar tampak lebih profesional 
 
-Edit dan sesuaikan dengan selera website yang anda inginkan.
+Edit dan sesuaikan dengan selera website yang anda inginkan. Script ini juga sudah support deploy ke vercel, jadi anda tidak perlu konfigurasi lagi.
+
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Shannzx10/shannz-store)
