@@ -6,7 +6,6 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(express.static(path.join(__dirname, 'src', 'public')));
-
 app.use('/', routes);
 
 app.use((req, res, next) => {
@@ -18,6 +17,9 @@ app.use((err, req, res, next) => {
     res.status(500).sendFile(path.join(__dirname, 'src', 'views', '500.html'));
 });
 
-app.listen(port, () => {
-    console.log(`Server berjalan di http://localhost:${port}`);
-});
+if (require.main === module) {
+    app.listen(port, () => {
+        console.log(`Server berjalan di http://localhost:${port}`);
+    });
+}
+module.exports = app;
