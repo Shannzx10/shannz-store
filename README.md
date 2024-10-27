@@ -2,7 +2,7 @@
 
 ![Stars](https://img.shields.io/github/stars/Shannzx10/shannz-store?style=social) ![Forks](https://img.shields.io/github/forks/Shannzx10/shannz-store?style=social) ![Issues](https://img.shields.io/github/issues/Shannzx10/shannz-store) ![License](https://img.shields.io/badge/license-MIT-blue)
 
-Sebuah template website store yang dapat digunakan oleh siapa saja. Template ini dirancang untuk memudahkan Anda dalam membangun toko online yang menarik dan fungsional.
+Sebuah template website store yang menggunakan express untuk menjalankannya dan dapat digunakan oleh siapa saja. Template ini dirancang untuk memudahkan Anda dalam membangun toko online yang menarik dan fungsional.
 
 ## Fitur
 
@@ -26,3 +26,17 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan template ini:
    ```bash
    git clone https://github.com/Shannzx10/shannz-store.git
    cd shannz-store
+   ```
+2. **Install Dependensi**
+   ```bash
+   npm install
+   ```
+3. **Jalankan Script**
+   ```bash
+   npm start
+   ```
+4. **Akses website**
+   buka browser anda dan akses localhost dengan port 3000 dan lihat hasilnya
+   ```bash
+   http://localhost:3000
+   ```
