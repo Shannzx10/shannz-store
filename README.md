@@ -36,7 +36,14 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan template ini:
    npm start
    ```
 4. **Akses website**
+
    buka browser anda dan akses localhost dengan port 3000 dan lihat hasilnya
    ```bash
    http://localhost:3000
    ```
+
+## Terakhir 
+
+Yeay website mu sudah bisa di akses, langkah selanjutnya kamu dapat menjalankan nya di server nginx dan menambahkan domain agar tampak lebih profesional 
+
+Edit dan sesuaikan dengan selera website yang anda inginkan.
