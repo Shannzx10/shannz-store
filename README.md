@@ -1,5 +1,7 @@
 # Shannz Store
 
+![Stars](https://img.shields.io/github/stars/Shannzx10/shannz-store?style=social) ![Forks](https://img.shields.io/github/forks/Shannzx10/shannz-store?style=social) ![Issues](https://img.shields.io/github/issues/Shannzx10/shannz-store) ![License](https://img.shields.io/badge/license-MIT-blue)
+
 Sebuah template website store yang dapat digunakan oleh siapa saja. Template ini dirancang untuk memudahkan Anda dalam membangun toko online yang menarik dan fungsional.
 
 ## Fitur
